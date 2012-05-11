@@ -22,6 +22,8 @@ Then at [Tendril's developer site](https://dev.tendrilinc.com), create an app to
 
 At the username prompt, enter "kim.deal@tendril.com" (or another user as decribed at the Tendril developer website), and "password" at the password prompt.
 
-Or run the simple test, as follows:
+Or, run the simple test, as follows:
 
   mvn test
+
+For a more comprehensive example of a Java client accessing the Tendril APIs, see the [Tendril Cirrus](https://github.com/drichelson/4308Cirrus) project.
