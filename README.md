@@ -8,15 +8,12 @@ First clone the repo:
 
     git clone git@github.com:TendrilDevProgram/tendril-java-cli.git
 
-Then, with [Maven](http://maven.apache.org):
-
-    cd tendril-java-cli
-
 Next:
 
+    cd tendril-java-cli
     cp src/main/resources/META-INF/application.properties.sample src/main/resources/META-INF/application.properties
 
-Then at [Tendril's developer site](https://dev.tendrilinc.com), create an app to acquire an OAuth2 app id and key.  Edit application.properties to set these values.  At this point you should be ready to run the application like so:
+Then at [Tendril's developer site](https://dev.tendrilinc.com), create an app to acquire an OAuth2 app id and key.  Edit application.properties to set these values.  At this point you should be ready to run the application with [Maven](http://maven.apache.org) like so:
 
     mvn exec:java
 
