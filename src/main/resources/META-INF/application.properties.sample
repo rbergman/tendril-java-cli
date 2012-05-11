@@ -1,0 +1,4 @@
+id: your app id
+secret: your app key
+scope: account consumption devices offline_access
+route: sandbox
